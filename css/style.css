@@ -1,0 +1,86 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+header h3 {
+  margin-top: 80px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #80688E;
+}
+header .sub-tittle {
+  max-width: 650px;
+  margin: 16px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  color: #9BAAFA;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: #5E6366;
+}
+
+.content .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 143px;
+}
+.content .quote {
+  display: flex;
+  max-width: 368px;
+  height: 208px;
+  margin-top: 48px;
+}
+.content .quote-blue {
+  display: flex;
+  max-width: 368px;
+  height: 208px;
+  margin-top: 48px;
+  border: 1px solid #E6EFFF;
+  background: #E6EFFF;
+  border-radius: 8px;
+}
+.content .quote-white {
+  display: flex;
+  max-width: 368px;
+  height: 208px;
+  margin-top: 48px;
+  border: 1px solid #FFFFFF;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(54, 123, 245, 0.16), 0px 2px 4px rgba(54, 123, 245, 0.24);
+  border-radius: 8px;
+}
+.content .info {
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  height: 176px;
+}
+.content .logo {
+  padding: 0 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
